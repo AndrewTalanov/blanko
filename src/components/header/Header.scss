@@ -1,0 +1,58 @@
+@import '../../Variables.css';
+
+.header {
+    position: relative;
+    z-index: 1;
+    $height: 80px;
+    width: 100%;
+    height: $height;
+    // background-color: $black;
+    background-color: var(--black);
+    .header-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+
+        .line {
+            width: 1px;
+            height: $height;
+            // background-color: $grey;
+            background-color: var(--grey);
+            margin: 0 32px;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            .mail {
+                padding: 4px 8px;
+                border-radius: 4px;
+                // color: $white;
+                color: var(--white);
+                background-color: var(--grey);
+                // background-color: $grey;
+            }
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 15px;   
+                li {
+                    display: flex;
+                    gap: 6px;
+                    // color: $white;
+                    color: var(--white);
+                }
+            }
+            .button {
+                margin-left: 20px;
+            }
+        }
+    }
+    
+}

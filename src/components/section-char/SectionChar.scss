@@ -1,0 +1,74 @@
+@import "../../Variables.css";
+
+.section-char {
+    padding: 80px 0;
+    .char-items {
+        gap: 70px;
+        display: flex;
+        justify-content: space-between;
+        .char-item {
+            display: flex;
+            gap: 25px;
+            .char-content {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+    }
+    .char-poster {
+        margin-top: 80px;
+        .char-wrapper {
+            display: flex;
+            justify-content: space-between;
+            // background-color: $black;
+            background-color: var(--black);
+            .char-left {
+                padding: 100px 0;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // color: $white;
+                color: var(--white);
+                h2 {
+                    width: 70%;
+                    font-weight: 400;
+                    font-size: 40px;
+                    text-align: center;
+                    margin: 40px 0;
+                }
+                h3 {
+                    text-align: center;
+                    font-size: 18px;
+                    font-weight: 700;
+                    span {
+                        color: white;
+                        opacity: .7;
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                }
+                .cubs {
+                    margin-top: 30px;
+                    display: flex;
+                    gap: 6px;
+                    .cubs-item {
+                        width: 16px;
+                        height: 16px;
+                        background-color: #666666;
+                    }
+                    .active {
+                        // background-color: $white;
+                        background-color: var(--white);
+                    }
+                }
+            }
+            .char-right {
+                img {
+                    height: 100%;
+                }
+            }            
+        }
+    }
+}

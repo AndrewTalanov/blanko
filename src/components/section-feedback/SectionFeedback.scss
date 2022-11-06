@@ -1,0 +1,127 @@
+@import "../../Variables.css";
+
+.section-feedback {
+    padding-bottom: 60px;
+    .feedback {
+        // background-color: $orange;
+        background-color: var(--orange);
+        display: flex;
+        padding: 60px;
+        justify-content: center;
+        gap: 20%;
+        .feedback-left {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                text-align: center;
+                font-size: 56px;
+                font-weight: 700;
+            }
+            h3 {
+                text-align: center;
+                margin-top: 25px;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            .buttons {
+                margin-top: 22px;
+                display: flex;
+                gap: 10px;
+                .button {
+                    padding: 20px 32px;
+                }
+                .button-black {
+                    // background-color: $black;
+                    background-color: var(--black);
+                    // color: $white;
+                    color: var(--white);
+                }
+            }
+            .feedback-rating {
+                margin-top: 80px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .feedback-starts {
+                    display: flex;
+                    gap: 10px;
+                }
+                h3 {
+                    margin-top: 20px;
+                    width: 350px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 16px;
+                    span {
+                        // color: $grey;
+                        color: var(--grey);
+                    }
+                }
+            }
+        }
+        .feedback-right {
+            .form {
+                width: 440px;
+                // background-color: $white;
+                background-color: var(--white);
+                display: flex;
+                flex-direction: column;
+                padding: 40px;
+                box-sizing: border-box;
+                .form-title {
+                    font-size: 32px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+                label {
+                    margin-top: 15px;
+                    h3 {
+                        font-size: 16px;
+                        font-weight: 400;
+                    }
+                    input {
+                        box-sizing: border-box;
+                        width: 100%;
+                        margin-top: 5px;
+                        padding: 20px 36px;
+                        border: none;
+                        border-radius: 6px;
+                        background-color: #F2F2F2;
+                    }
+                }
+                .form-checkbox {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    input {        
+                        width: 24px;
+                        height: 24px;
+                    }
+                }
+                .button {
+                    width: 100%;
+                    padding: 20px 0;
+                    // background-color: $black;
+                    background-color: var(--black);
+                    // color: $white;
+                    color: var(--white);
+                    margin-top: 32px;
+                }
+                p {
+                    text-align: center;
+                    margin-top: 16px;
+                    span {
+                        // color: $orange;
+                        color: var(--orange);
+                    }
+                }
+            }
+        }
+    }
+}
+

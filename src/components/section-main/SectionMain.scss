@@ -1,0 +1,74 @@
+@import "../../Variables.css";
+
+.section-main {
+    // background-color: $orange;
+    background-color: var(--orange);
+    .main-wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 20%;
+        height: 732px;
+        .main-left {
+            h1 {
+                margin: 90px 0 30px 40px;
+                font-size: 72px;
+                font-weight: 700;
+            }
+            h2 {
+                font-size: 18px;
+                font-weight: 400;
+                text-align: center;
+            }
+            .main-buttons {
+                display: flex;
+                gap: 8px;
+                margin-top: 22px;
+                justify-content: center;
+                .buy-template {
+                    padding: 20px 32px;
+                    // background-color: $black;
+                    background-color: var(--black);
+                    // color: $white;
+                    color: var(--white);
+                }
+                .other-template {
+                    padding: 20px 32px;
+                    // background-color: $white;
+                    background-color: var(--white);
+                    // color: $black;
+                    color: var(--black);
+                }
+            }
+            .main-rating {
+                margin-top: 160px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .main-starts {
+                    display: flex;
+                    gap: 10px;
+                }
+                h3 {
+                    margin-top: 20px;
+                    width: 350px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                p {
+                    margin-top: 16px;
+                    span {
+                        // color: $grey;
+                        color: var(--grey);
+                    }
+                }
+            }
+        }
+        .main-right {
+            img {
+                position: relative;
+                top: -80px;
+            }
+        }
+    }
+}
