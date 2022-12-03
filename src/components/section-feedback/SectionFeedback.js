@@ -4,8 +4,8 @@ import star from '../../img/star.svg';
 
 const SectionFeedback = () => {
     return (
-        <section className="section-feedback">
-            <div className="feedback container">
+        <section className="section-feedback container">
+            <div className="feedback">
                 <div className="feedback-left">
                     <h2>Ready to scale your business?</h2>
                     <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Odio mauris porttitor amet volutpat.</h3>

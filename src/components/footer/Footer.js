@@ -21,7 +21,7 @@ const Footer = () => {
                         <li>Sign up</li>
                         <li>Other templates</li>
                     </ul>
-                    <ul>
+                    <ul className="footer-icons">
                         <li><img src={inst} alt="instagram" /></li>
                         <li><img src={twit} alt="twitter" /></li>
                         <li><img src={fb} alt="facebook" /></li>
